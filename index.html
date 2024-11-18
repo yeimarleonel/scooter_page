@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTRIC SCOOTER 4 PRO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Fotos patineta/logo.png">
+</head>
+<body>
+    <!-- Aquí puedes incluir tu header y otras secciones -->
+    <header>
+        <div class="logo">
+            <img src="Fotos patineta/logo.png" alt="Scooters Riders Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">GENERAL</a></li>
+                <li><a href="Especifico.html">CARACTERISTICAS</a></li>
+                <li><a href="index.html"  class="btn-cotizar">COTIZAR</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Registro de Pago -->
+    <div id="registro-pago" class="ventana">
+        <h2>Patineta Eléctrica - SCOOTER 4 PRO</h2>
+    <div>
+        <form id="formulario-pago">
+            <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            </p>
+
+            <p>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" required>
+            </p>
+
+            <p>
+            <label for="identidad">Número de identidad</label>
+            <input type="text" id="identidad" name="identidad" required>
+            </p>
+
+            <p>
+            <label for="celular">Celular</label>
+            <input type="text" id="celular" name="celular" required>
+            </p>
+
+            <p>
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccion" name="direccion" required>
+            </p>
+
+            <p>
+            <label for="postal">Código Postal</label>
+            <input type="text" id="postal" name="postal" required>
+            </p>
+
+            <p>
+            <label for="pais">País</label>
+            <input type="text" id="pais" name="pais" required>
+            </p>
+
+            <p>
+            <label for="ciudad">Ciudad</label>
+            <input type="text" id="ciudad" name="ciudad" required>
+            </p>
+
+            <p class="block">
+                <button type="button" onclick="confirmarPago()">ENVIAR</button>
+            </p>
+        </form>
+    </div>
+    </div>
+
+    <!-- Sección de Confirmación de Envío -->
+    <div id="confirmacion-envio" class="ventana" style="display: none;">
+        <h2>¡Envío confirmado!</h2>
+        <p><strong>Nombre:</strong> <span id="conf-nombre"></span></p>
+        <p><strong>Apellido:</strong> <span id="conf-apellido"></span></p>
+        <p><strong>Número de identidad:</strong> <span id="conf-identidad"></span></p>
+        <p><strong>Celular:</strong> <span id="conf-celular"></span></p>
+        <p><strong>Dirección:</strong> <span id="conf-direccion"></span></p>
+        <p><strong>Código Postal:</strong> <span id="conf-postal"></span></p>
+        <p><strong>País:</strong> <span id="conf-pais"></span></p>
+        <p><strong>Ciudad:</strong> <span id="conf-ciudad"></span></p>
+        <li><a href="./Home.html"  class="ventana button back">Regresar</a></li>
+
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="social-media">
+            <a href="https://www.uniguajira.edu.co">Universidad de la Guajira</a>
+            <a href="https://www.uniguajira.edu.co">@uniguajira_</a>
+        </div>
+        <p>© 2024 Scooter Riders. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
