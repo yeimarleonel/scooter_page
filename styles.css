@@ -70,7 +70,9 @@ footer .social-media a {
 }
 
 /* Estilo para el formulario de pago */
-.ventana {
+.ventana { 
+
+
     max-width: 850px;
     margin: 40px auto;
     padding: 25px;
@@ -78,8 +80,25 @@ footer .social-media a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 21px;
     border:3px solid black;
-    height: 457px;
+    height: 457px; 
 }
+
+
+.ventana_index{
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 21px;
+    border:3px solid black;
+    height: 457px; 
+    display: flex;
+    align-items: flex-start;
+    background-color: red;
+
+}
+
 
 .ventana form p{
     margin: 0;
@@ -140,7 +159,7 @@ footer .social-media a {
 
 }
 
-.ventana button back {
+.ventana button  {
     display: center;
     width: 40%;
     padding: 10px;
