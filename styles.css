@@ -87,6 +87,7 @@ footer .social-media a {
 .ventana_index{
     max-width: 850px;
     margin: 40px auto;
+    margin-bottom: 100px;
     padding: 25px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -95,8 +96,6 @@ footer .social-media a {
     height: 457px; 
     display: flex;
     align-items: flex-start;
-    background-color: red;
-
 }
 
 
@@ -156,20 +155,19 @@ footer .social-media a {
     border-radius: 21px;
     font-size: bold;
     cursor: pointer;
-
 }
 
-.ventana button  {
-    display: center;
-    width: 40%;
+.ventana-button-back  {
+    display:flex;
+    width: 60%;
     padding: 10px;
     background-color: #2E8B57;
     color: white;
     border: none;
     border-radius: 21px;
-    font-size: bold;
     cursor: pointer;
-
+    text-decoration: none;
+    text-align: center;
 }
 
 .ventana button:hover {
