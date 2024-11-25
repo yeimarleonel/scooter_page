@@ -158,7 +158,7 @@ footer .social-media a {
 }
 
 .ventana-button-back  {
-    display:flex;
+    display: center;
     width: 60%;
     padding: 10px;
     background-color: #2E8B57;
@@ -167,7 +167,6 @@ footer .social-media a {
     border-radius: 21px;
     cursor: pointer;
     text-decoration: none;
-    text-align: center;
 }
 
 .ventana button:hover {
